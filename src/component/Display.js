@@ -1,5 +1,4 @@
-// import {  useNavigate } from "react-router-dom";
-// import {user} from '../dataDummy/user'
+
 
 const Display =(props)=> {
     
@@ -7,7 +6,6 @@ const Display =(props)=> {
 
     return (
         <>
-        {/* {user.map((item, index)=>( */}
             <div className="Card" style={{ width: '400px', backgroundColor:'grey', display:'flex', margin:'20px' }}>
                 <div className="image">
                 <img src={props.image} alt=''
@@ -23,7 +21,6 @@ const Display =(props)=> {
                     <p>Followers:{props.follower}</p>
                 </div>
             </div>
-        {/* // ))} */}
         </>
     )
 
